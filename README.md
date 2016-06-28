@@ -1,11 +1,15 @@
 # SQL Server First Responder Kit
+[![licence badge]][licence]
+[![stars badge]][stars]
+[![forks badge]][forks]
+[![issues badge]][issues]
 
 You're a DBA, sysadmin, or developer who manages Microsoft SQL Servers. It's your fault if they're down or slow. These tools help you understand what's going on in your server.
 
 * When you want an overall health check, run [sp_Blitz](#sp_blitz-overall-health-check).
 * To learn which queries have been using the most resources, run [sp_BlitzCache](#sp_blitzcache-find-the-most-resource-intensive-queries).
 * To analyze which indexes are missing or slowing you down, run [sp_BlitzIndex](#sp_blitzindex-tune-your-indexes).
-* To find out why the server is slow right now, run [sp_AskBrent](#sp_askbrent-real-time-performance-advice).
+* To find out why the server is slow right now, run [sp_BlitzFirst](#sp_blitzfirst-real-time-performance-advice).
 
 To install, [download the latest release ZIP](https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/releases), then run the SQL files in the master database. (You can use other databases if you prefer.)
 
@@ -95,13 +99,13 @@ In addition to the [parameters common to many of the stored procedures](#paramet
 
 (stub - describe the lesser-used stuff)
 
-## sp_AskBrent: Real-Time Performance Advice
+## sp_BlitzFirst: Real-Time Performance Advice
 
 (stub - describe the big picture here)
 
-### Advanced sp_AskBrent Parameters
+### Advanced sp_BlitzFirst Parameters
 
-In addition to the [parameters common to many of the stored procedures](#parameters-common-to-many-of-the-stored-procedures), here are the ones specific to sp_AskBrent:
+In addition to the [parameters common to many of the stored procedures](#parameters-common-to-many-of-the-stored-procedures), here are the ones specific to sp_BlitzFirst:
 
 (stub - describe the lesser-used stuff)
 
@@ -115,3 +119,14 @@ In addition to the [parameters common to many of the stored procedures](#paramet
 ## License
 
 [The SQL Server First Responder Kit uses the MIT License.](LICENSE.md)
+
+
+[licence badge]:https://img.shields.io/badge/license-MIT-blue.svg
+[stars badge]:https://img.shields.io/github/stars/BrentOzarULTD/SQL-Server-First-Responder-Kit.svg
+[forks badge]:https://img.shields.io/github/forks/BrentOzarULTD/SQL-Server-First-Responder-Kit.svg
+[issues badge]:https://img.shields.io/github/issues/BrentOzarULTD/SQL-Server-First-Responder-Kit.svg
+
+[licence]:https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/blob/master/LICENSE.md
+[stars]:https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/stargazers
+[forks]:https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/network
+[issues]:https://github.com/BrentOzarULTD/SQL-Server-First-Responder-Kit/issues
